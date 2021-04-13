@@ -11,6 +11,7 @@ import { IconButton } from '@material-ui/core';
 import AddIcon from '@material-ui/icons/Add';
 import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import MessageIcon from '@material-ui/icons/Message';
 
 function Header() {
     return ( 
@@ -50,14 +51,11 @@ function Header() {
                         <NotificationsActiveIcon/>
                     </IconButton>
                     <IconButton>
+                        <MessageIcon/>
+                    </IconButton>
+                    <IconButton>
                         <ExpandMoreIcon/>
                     </IconButton>
-                    
-                    <IconButton>
-                        <AddIcon/>
-                    </IconButton>
-
-
                 </div>
 
             </div>
